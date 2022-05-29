@@ -26,5 +26,5 @@ Nos estudos de hoje, refiz os codigos de ontem melhorando-os e consolidando aind
 
 ### Evento - onCharge
 
->Usado quando algo mudar o valor, usei para pegar o valor do input de email e senha, para isso usei`e.target.value`.
+>Usado quando algo mudar o valor, usei para pegar o valor do input de email e senha, para isso usei `e.target.value`.
 
