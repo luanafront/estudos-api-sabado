@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 193, 229, 0.986);
+  background-color: rgba(226, 215, 221, 0.986);
   padding: 52px;
   border-radius: 23px;
 }
@@ -14,9 +14,19 @@
 }
 .title {
   color: rgb(156 39 176);
+  font-weight: 300;
 }
 .buttonBox {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+}
+.mensagem {
+  color: rgb(156 39 176);
+  font-weight: 300;
+  padding-top: 10px;
+}
+.imagem__github {
+  height: 25px;
+  padding-top: 100px;
 }

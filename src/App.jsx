@@ -1,7 +1,8 @@
 import './App.css';
 import axios from 'axios';
 import { TextField , Button} from '@mui/material';
-import React, {useState, useEffect} from "react"
+import React, {useState, useEffect} from "react";
+import github from "./github.png";
 
 
 function App() {
@@ -80,8 +81,12 @@ function App() {
         >
           Logout
         </Button>
+
       </div>
-      <p>{logged ? "You are logged!" : "You aren't logged!"}</p>
+      <p className='mensagem'>{logged ? "You are logged!" : "You aren't logged!"}</p>
+      <a href="https://github.com/luanafront/estudos-api-sabado">
+          <img alt="aprendendo" className='imagem__github' src={github}/> 
+        </a>
     </div>
     
   );
